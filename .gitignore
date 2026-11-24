@@ -1,0 +1,14 @@
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Installers go on the releases page, never in git.
+*.dmg
+*.exe
+*.zip
+
+.env*
+*.log
