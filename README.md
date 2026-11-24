@@ -9,15 +9,17 @@ You can have either tree or both. Agents can chat, run skills, make real files (
 
 Nexus is free. There are no plans, seats or trials.
 
+If you use Claude Code, Nexus also shows a live map of your Claude sessions on your own computer (**This Mac**, or **This PC** on Windows), and a **Centers** page for running your own security center or GitHub center skills on a project.
+
 ## Download
 
-Version 0.1.10
+Version 0.1.11
 
 | Your computer | Download |
 |---|---|
-| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.10-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.10/Nexus-0.1.10-mac-arm64.dmg) |
-| Mac with an Intel processor | [Nexus-0.1.10-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.10/Nexus-0.1.10-mac-x64.dmg) |
-| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.10-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.10/Nexus-Setup-0.1.10-x64.exe) |
+| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.11-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.11/Nexus-0.1.11-mac-arm64.dmg) |
+| Mac with an Intel processor | [Nexus-0.1.11-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.11/Nexus-0.1.11-mac-x64.dmg) |
+| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.11-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.11/Nexus-Setup-0.1.11-x64.exe) |
 
 Not sure which Mac you have? Choose Apple menu → About This Mac. "Chip: Apple M…" means Apple silicon. "Processor: Intel" means Intel. Nexus needs macOS 13 or newer.
 
@@ -66,9 +68,9 @@ Open **Integrations** in Nexus and choose Connect. Sign-in happens in your own b
 
 ## Known limits
 
-- The Windows installer is built and started on a Windows machine at GitHub, but it has not yet been tried by a person on their own PC.
+- **This PC** (the map of Claude sessions on Windows) is new in 0.1.11. It is checked on a Windows machine at GitHub with made-up sessions. If yours don't show up, please open an issue.
+- On Windows a few of the map's panels aren't there yet: running dev servers, scheduled jobs, the calendar, and file thumbnails. Sessions run inside WSL aren't shown.
 - The Intel Mac version has not yet been tried on an Intel Mac.
-- **This Mac** and **Centers** are for people who use Claude Code on a Mac. They aren't in the Windows version.
 - To share a company tree with teammates, someone has to run a Nexus company server. The app explains this when you invite someone.
 
 ## Updating and removing
