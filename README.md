@@ -9,17 +9,19 @@ You can have either tree or both. Agents can chat, run skills, make real files (
 
 Nexus is free. There are no plans, seats or trials.
 
+New here? When you create an account, Nexus offers to show you around: a one-minute tour of each part of the app. It stays in the account menu if you want it later.
+
 If you use Claude Code, Nexus also shows a live map of your Claude sessions on your own computer (**This Mac**, or **This PC** on Windows), and a **Centers** page for running your own security center or GitHub center skills on a project.
 
 ## Download
 
-Version 0.1.11
+Version 0.1.12
 
 | Your computer | Download |
 |---|---|
-| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.11-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.11/Nexus-0.1.11-mac-arm64.dmg) |
-| Mac with an Intel processor | [Nexus-0.1.11-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.11/Nexus-0.1.11-mac-x64.dmg) |
-| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.11-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.11/Nexus-Setup-0.1.11-x64.exe) |
+| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.12-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.12/Nexus-0.1.12-mac-arm64.dmg) |
+| Mac with an Intel processor | [Nexus-0.1.12-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.12/Nexus-0.1.12-mac-x64.dmg) |
+| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.12-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.12/Nexus-Setup-0.1.12-x64.exe) |
 
 Not sure which Mac you have? Choose Apple menu → About This Mac. "Chip: Apple M…" means Apple silicon. "Processor: Intel" means Intel. Nexus needs macOS 13 or newer.
 
