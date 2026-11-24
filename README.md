@@ -15,13 +15,15 @@ If you use Claude Code, Nexus also shows a live map of your Claude sessions on y
 
 ## Download
 
-Version 0.1.12
+Version 0.1.13
 
 | Your computer | Download |
 |---|---|
-| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.12-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.12/Nexus-0.1.12-mac-arm64.dmg) |
-| Mac with an Intel processor | [Nexus-0.1.12-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.12/Nexus-0.1.12-mac-x64.dmg) |
-| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.12-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.12/Nexus-Setup-0.1.12-x64.exe) |
+| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.13-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.13/Nexus-0.1.13-mac-arm64.dmg) |
+| Mac with an Intel processor | [Nexus-0.1.13-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.13/Nexus-0.1.13-mac-x64.dmg) |
+| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.13-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.13/Nexus-Setup-0.1.13-x64.exe) |
+
+**On Windows, please use 0.1.13 or newer.** It fixes two security flaws on the This PC page in 0.1.11 and 0.1.12. The Mac version never had them.
 
 Not sure which Mac you have? Choose Apple menu → About This Mac. "Chip: Apple M…" means Apple silicon. "Processor: Intel" means Intel. Nexus needs macOS 13 or newer.
 
