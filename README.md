@@ -17,7 +17,7 @@ Version 0.1.10
 |---|---|
 | Mac with Apple silicon (M1 or newer) | [Nexus-0.1.10-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.10/Nexus-0.1.10-mac-arm64.dmg) |
 | Mac with an Intel processor | [Nexus-0.1.10-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.10/Nexus-0.1.10-mac-x64.dmg) |
-| Windows 10 or 11 (64-bit) | Being prepared. It will be here shortly. |
+| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.10-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.10/Nexus-Setup-0.1.10-x64.exe) |
 
 Not sure which Mac you have? Choose Apple menu → About This Mac. "Chip: Apple M…" means Apple silicon. "Processor: Intel" means Intel. Nexus needs macOS 13 or newer.
 
