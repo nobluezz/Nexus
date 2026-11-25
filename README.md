@@ -15,19 +15,19 @@ If you use Claude Code, Nexus also shows a live map of your Claude sessions on y
 
 ## Download
 
-Version 0.1.13
+Version 0.1.14
 
 | Your computer | Download |
 |---|---|
-| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.13-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.13/Nexus-0.1.13-mac-arm64.dmg) |
-| Mac with an Intel processor | [Nexus-0.1.13-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.13/Nexus-0.1.13-mac-x64.dmg) |
-| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.13-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.13/Nexus-Setup-0.1.13-x64.exe) |
+| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.14-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.14/Nexus-0.1.14-mac-arm64.dmg) |
+| Mac with an Intel processor | [Nexus-0.1.14-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.14/Nexus-0.1.14-mac-x64.dmg) |
+| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.14-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.14/Nexus-Setup-0.1.14-x64.exe) |
 
 **On Windows, please use 0.1.13 or newer.** It fixes two security flaws on the This PC page in 0.1.11 and 0.1.12. The Mac version never had them.
 
 Not sure which Mac you have? Choose Apple menu → About This Mac. "Chip: Apple M…" means Apple silicon. "Processor: Intel" means Intel. Nexus needs macOS 13 or newer.
 
-Newer versions appear on the [releases page](https://github.com/nobluezz/Nexus/releases). Nexus doesn't update itself, so check back here now and then.
+From 0.1.14, Nexus keeps itself up to date: on Windows it installs newer versions itself, and on a Mac it tells you when one is out. Every version is on the [releases page](https://github.com/nobluezz/Nexus/releases).
 
 ## Opening it the first time
 
@@ -79,7 +79,10 @@ Open **Integrations** in Nexus and choose Connect. Sign-in happens in your own b
 
 ## Updating and removing
 
-- **Update:** download the newer version and install it over the old one. Your data stays. On a Mac, the keychain question comes back once: choose Always Allow.
+- **Update on Windows:** Nexus downloads a newer version in the background and says when it is ready. Choose Restart Nexus, or just close Nexus: it installs then. Your data stays.
+- **Update on a Mac:** Nexus says when a newer version is out and gives you the download. Open it and drag Nexus into Applications over the version you have. The keychain question comes back once: choose Always Allow.
+- **From 0.1.13 or older:** those versions don't look for updates, so download this one and install it over the old one, once.
+- **The daily check:** about once a day Nexus asks this page which version is newest, and sends nothing about you. Help → Check for Updates Automatically turns it off.
 - **Remove on a Mac:** drag Nexus from Applications to the Trash. To remove your data too, delete `~/Library/Application Support/Nexus`.
 - **Remove on Windows:** Settings → Apps → Nexus → Uninstall. To remove your data too, delete `%APPDATA%\Nexus`.
 
