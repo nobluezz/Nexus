@@ -5,7 +5,7 @@ Welcome. Nexus is a free app for Mac and Windows that gives you a team of AI age
 - A **company tree** is for work. It has departments such as Sales, Marketing, Operations and Finance. Each department has its own agent and a set of jobs it can run.
 - A **personal tree** is for the rest of life: Life Admin, Money, Health & Habits, Career, Learning, Travel & Events, Writing & People. It is private to you, and nobody can be invited to it.
 
-You can have either tree or both. Agents can chat, run skills, make real files (PDF, Word, Excel), remember what you teach them and run on a schedule. If you connect a Google or Microsoft 365 account, they can also read your mail, calendar and files. They never send an email or invite anyone until you approve it.
+You can have either tree or both. Agents can chat, run skills, make real files (PDF, Word, Excel), remember what you teach them and run on a schedule. You can attach pictures, PDFs and text files to a chat for them to read. If you connect a Google or Microsoft 365 account, they can also read your mail, calendar and files. They never send an email or invite anyone until you approve it.
 
 Nexus is free. There are no plans, seats or trials.
 
@@ -15,13 +15,13 @@ If you use Claude Code, Nexus also shows a live map of your Claude sessions on y
 
 ## Download
 
-Version 0.1.14
+Version 0.1.15
 
 | Your computer | Download |
 |---|---|
-| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.14-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.14/Nexus-0.1.14-mac-arm64.dmg) |
-| Mac with an Intel processor | [Nexus-0.1.14-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.14/Nexus-0.1.14-mac-x64.dmg) |
-| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.14-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.14/Nexus-Setup-0.1.14-x64.exe) |
+| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.15-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.15/Nexus-0.1.15-mac-arm64.dmg) |
+| Mac with an Intel processor | [Nexus-0.1.15-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.15/Nexus-0.1.15-mac-x64.dmg) |
+| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.15-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.15/Nexus-Setup-0.1.15-x64.exe) |
 
 **On Windows, please use 0.1.13 or newer.** It fixes two security flaws on the This PC page in 0.1.11 and 0.1.12. The Mac version never had them.
 
@@ -75,6 +75,7 @@ Open **Integrations** in Nexus and choose Connect. Sign-in happens in your own b
 - **This PC** (the map of Claude sessions on Windows) is new in 0.1.11. It is checked on a Windows machine at GitHub with made-up sessions. If yours don't show up, please open an issue.
 - On Windows a few of the map's panels aren't there yet: running dev servers, scheduled jobs, the calendar, and file thumbnails. Sessions run inside WSL aren't shown.
 - The Intel Mac version has not yet been tried on an Intel Mac.
+- Word, Excel and slide files can't be attached to a chat yet. Save them as a PDF (or a CSV) and attach that.
 - To share a company tree with teammates, someone has to run a Nexus company server. The app explains this when you invite someone.
 
 ## Updating and removing
