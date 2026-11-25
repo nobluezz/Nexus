@@ -5,7 +5,7 @@ Welcome. Nexus is a free app for Mac and Windows that gives you a team of AI age
 - A **company tree** is for work. It has departments such as Sales, Marketing, Operations and Finance. Each department has its own agent and a set of jobs it can run.
 - A **personal tree** is for the rest of life: Life Admin, Money, Health & Habits, Career, Learning, Travel & Events, Writing & People. It is private to you, and nobody can be invited to it.
 
-You can have either tree or both. Agents can chat, run skills, make real files (PDF, Word, Excel), remember what you teach them and run on a schedule. You can attach pictures, PDFs and text files to a chat for them to read. If you connect a Google or Microsoft 365 account, they can also read your mail, calendar and files. They never send an email or invite anyone until you approve it.
+You can have either tree or both. Agents can chat, run skills, make real files (PDF, Word, Excel), remember what you teach them and run on a schedule. You can attach pictures, PDFs and text files to a chat for them to read. A new chat can also look things up in your other chats. If you connect a Google or Microsoft 365 account, they can also read your mail, calendar and files. They never send an email or invite anyone until you approve it.
 
 Nexus is free. There are no plans, seats or trials.
 
@@ -15,13 +15,13 @@ If you use Claude Code, Nexus also shows a live map of your Claude sessions on y
 
 ## Download
 
-Version 0.1.18
+Version 0.1.19
 
 | Your computer | Download |
 |---|---|
-| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.18-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.18/Nexus-0.1.18-mac-arm64.dmg) |
-| Mac with an Intel processor | [Nexus-0.1.18-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.18/Nexus-0.1.18-mac-x64.dmg) |
-| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.18-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.18/Nexus-Setup-0.1.18-x64.exe) |
+| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.19-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.19/Nexus-0.1.19-mac-arm64.dmg) |
+| Mac with an Intel processor | [Nexus-0.1.19-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.19/Nexus-0.1.19-mac-x64.dmg) |
+| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.19-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.19/Nexus-Setup-0.1.19-x64.exe) |
 
 **On Windows, please use 0.1.13 or newer.** It fixes two security flaws on the This PC page in 0.1.11 and 0.1.12. The Mac version never had them.
 
