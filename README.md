@@ -15,13 +15,13 @@ If you use Claude Code, Nexus also shows a live map of your Claude sessions on y
 
 ## Download
 
-Version 0.1.15
+Version 0.1.18
 
 | Your computer | Download |
 |---|---|
-| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.15-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.15/Nexus-0.1.15-mac-arm64.dmg) |
-| Mac with an Intel processor | [Nexus-0.1.15-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.15/Nexus-0.1.15-mac-x64.dmg) |
-| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.15-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.15/Nexus-Setup-0.1.15-x64.exe) |
+| Mac with Apple silicon (M1 or newer) | [Nexus-0.1.18-mac-arm64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.18/Nexus-0.1.18-mac-arm64.dmg) |
+| Mac with an Intel processor | [Nexus-0.1.18-mac-x64.dmg](https://github.com/nobluezz/Nexus/releases/download/v0.1.18/Nexus-0.1.18-mac-x64.dmg) |
+| Windows 10 or 11 (64-bit) | [Nexus-Setup-0.1.18-x64.exe](https://github.com/nobluezz/Nexus/releases/download/v0.1.18/Nexus-Setup-0.1.18-x64.exe) |
 
 **On Windows, please use 0.1.13 or newer.** It fixes two security flaws on the This PC page in 0.1.11 and 0.1.12. The Mac version never had them.
 
@@ -76,6 +76,7 @@ Open **Integrations** in Nexus and choose Connect. Sign-in happens in your own b
 - On Windows a few of the map's panels aren't there yet: running dev servers, scheduled jobs, the calendar, and file thumbnails. Sessions run inside WSL aren't shown.
 - The Intel Mac version has not yet been tried on an Intel Mac.
 - Word, Excel and slide files can't be attached to a chat yet. Save them as a PDF (or a CSV) and attach that.
+- A chat can read up to 100 PDF pages in all, because that is as many as Claude takes at once. For more, start a new chat.
 - To share a company tree with teammates, someone has to run a Nexus company server. The app explains this when you invite someone.
 
 ## Updating and removing
